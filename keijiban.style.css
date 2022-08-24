@@ -1,0 +1,134 @@
+header {
+    width: 100%;
+}
+
+.logo img {
+    width: 350px;
+}
+
+.nav {
+    height: 60px;
+    background-color: black;
+}
+
+header ul {
+    list-style-type: none;
+    line-height: 60px;
+}
+
+
+header ul li {
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+}
+
+main {
+    clear: both;
+}
+
+.main-container {
+    width: 95%;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+h2 {
+    border-left: 4px solid black;
+    border-bottom: 1px solid black;
+}
+
+.right {
+    float: right;
+    background-color: white;
+    width: 25%;
+    margin-top: 8px;
+}
+
+.right,h3,li {
+    list-style: none;
+}
+
+h3 {
+    border-bottom: 1px dotted black;
+}
+
+.left {
+    float: left;
+    background-color: white;
+    width: 70%;
+    margin-bottom: 40px;
+    padding-right: 50px;
+}
+
+footer {
+    clear: left;
+    margin-top: 60px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+.kiji {
+    
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 100%;
+}
+
+.kiji h3 {
+    border-bottom: solid 2px lightgray;
+}
+
+.contents {
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.handlename {
+    font-size: 12px;
+}
+.nyuuryoku {
+    margin: auto;
+    border: 2px lightgray solid;
+    width: 96%;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fafafa;
+    display: inline-block;
+    
+}
+
+.nyuuryoku h1 {
+    border-left: 4px #b40404 solid;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.text,
+textarea {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom: solid 2px black;
+}
